@@ -21,7 +21,7 @@ runs/
 *.cache
 
 # Large dataset zips and extracted data
-*.zip
+# *.zip
 *.tar
 *.gz
 *.rar
