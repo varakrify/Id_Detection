@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['0', '1', 'ID', 'II-id', 'III-id']
+
+roboflow:
+  workspace: id-card-gllaf
+  project: id-card-ecsnq
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/id-card-gllaf/id-card-ecsnq/dataset/3

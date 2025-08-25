@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# YOLO / Ultralytics generated folders
+runs/
+*.cache
+
+# Large dataset zips and extracted data
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Model weights (keep them local or on cloud storage)
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.engine
+
+# Images / test outputs (optional, keep only a few sample images)
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
